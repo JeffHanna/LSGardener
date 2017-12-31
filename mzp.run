@@ -1,0 +1,15 @@
+name "Lodestone Gardener"
+version 1.9
+
+move "Macro_LSGardener.mcr" to "$max\\ui\\macroscripts"
+move "LSGardener.ms" to "$max\\scripts\\Lodestone"
+
+move "LSG_16a.bmp" to "$max\\ui\\icons"
+move "LSG_16i.bmp" to "$max\\ui\\icons"
+move "LSG_24a.bmp" to "$max\\ui\\icons"
+move "LSG_24i.bmp" to "$max\\ui\\icons"
+move "LSG_Logo.bmp" to "$max\\ui\\icons"
+
+run "$max\\ui\\macroscripts\\Macro_LSGardener.mcr"
+
+clear temp
