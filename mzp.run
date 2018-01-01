@@ -1,15 +1,11 @@
 name "Lodestone Gardener"
-version 1.9
+version 1.91
 
-move "Macro_LSGardener.mcr" to "$usermacros"
-move "LSGardener.ms" to "$userscripts\\Lodestone"
+move LSGardener.ms to $userscripts\\Lodestone
+move "*.bmp" to $usericons
+move Macro_LSGardener.mcr to $usermacros
 
-move "LSG_16a.bmp" to "$usericons"
-move "LSG_16i.bmp" to "$usericons"
-move "LSG_24a.bmp" to "$usericons"
-move "LSG_24i.bmp" to "$usericons"
-move "LSG_Logo.bmp" to "$usericons"
-
-run "$usermacros\\Macro_LSGardener.mcr"
+run InstallFinished.ms
+drop InstallFinished.ms
 
 clear temp

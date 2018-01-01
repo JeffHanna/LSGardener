@@ -1,6 +1,6 @@
 /*
 	LSGardener.ms
-	v 2.0
+	v 1.91
 	Created On: March 28, 2002
 	Modified On: December 31, 2017
 	Modified By: Jeff Hanna
@@ -26,7 +26,7 @@
 
 
 	/*Variables*/
-	LSG_Version = "version 2.0"
+	LSG_Version = "version 1.91"
 	LSG_Date = "December 31, 2017"
 	LSG_Time = "06:00:45 PM"
 
