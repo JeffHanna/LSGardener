@@ -1,10 +1,10 @@
 /*
 	LSGardener.ms
-	v 1.9
+	v 2.0
 	Created On: March 28, 2002
-	Modified On: August 05, 2002
+	Modified On: December 31, 2017
 	Modified By: Jeff Hanna
-	tested using Max 4.26
+	tested using 3ds Max 4.26 and 3ds Max 2018
 	Based on SimpleScatter.ms and Planter.ms by Neil Blevins (soulburn@blur.com)
 */
 
@@ -26,9 +26,9 @@
 
 
 	/*Variables*/
-	LSG_Version = "version 1.9"
-	LSG_Date = "August 05, 2002"
-	LSG_Time = "05:06:19 PM"
+	LSG_Version = "version 2.0"
+	LSG_Date = "December 31, 2017"
+	LSG_Time = "06:00:45 PM"
 
 	area_obj = #()
 	ground_obj = #()
@@ -675,7 +675,7 @@
 	(
 		group ""
 		(
-			Bitmap LSG_Logo Filename:"$max\\ui\\icons\\LSG_Logo.bmp"
+			Bitmap LSG_Logo Filename:"$usericons\\LSG_Logo.bmp"
 			label lbl_version ""
 			label lbl_date ""
 			label lbl_time ""

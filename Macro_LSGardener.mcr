@@ -5,5 +5,5 @@ macroscript LSGardener
 	icon:#("LSG",1)
 
 	(
-	Include "$scripts/Lodestone/LSGardener.ms"
+		Include "$userscripts/Lodestone/LSGardener.ms"
 	)
